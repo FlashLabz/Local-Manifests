@@ -7,4 +7,8 @@
   <project path="vendor/realme/RMX2117" name="Ravinderrohilla/android_vendor_realme_RMX2117" remote="github" revision="Vendor-S" />
   <project path="kernel/realme/RMX2117" name="RMX2117-Source/android_kernel_realme_RMX2117" remote="github" revision="main" />
   
+  <!-- hardware -->
+  
+  <project path="hardware/oplus" name="Ravinderrohilla/android_hardware_oplus" remote="github" revision="lineage-19.1" />
+  
 </manifest>
