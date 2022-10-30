@@ -5,7 +5,7 @@
   
   <project path="device/realme/RMX2117" name="FlashLabz/android-device-tree-RMX2117" remote="github" revision="Android-S" />
   <project path="vendor/realme/RMX2117" name="Ravinderrohilla/android_vendor_realme_RMX2117" remote="github" revision="Vendor-S" />
-  <project path="kernel/realme/RMX2117" name="RMX2117-Source/android_kernel_realme_RMX2117" remote="github" revision="main" />
+  <project path="kernel/realme/RMX2117" name="RMX2117-Source/android_kernel_realme_RMX2117" remote="github" revision="master" />
   
   <!-- hardware -->
   
