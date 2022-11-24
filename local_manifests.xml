@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+
+<remote name="all"
+            fetch="https://github.com/"
+
+  <remote name="allgit"
+            fetch="https://gitlab.com/"
+
   <!-- Trees -->
   
-  <project path="device/realme/RMX2117" name="FlashLabz/android-device-tree-RMX2117" remote="github" revision="Android-S" />
-  <project path="vendor/realme/RMX2117" name="Ravinderrohilla/android_vendor_realme_RMX2117" remote="github" revision="Vendor-S" />
-  <project path="kernel/realme/RMX2117" name="RMX2117-Source/android_kernel_realme_RMX2117" remote="github" revision="master" />
+  <project path="device/xiaomi/miatoll" name="athizz2005/android_device_xiaomi_miatoll-1" remote="all" revision="rice" />
+  <project path="device/xiaomi/sm6250-common" name="rayavanindra/android_device_xiaomi_sm6250-common" remote="all" revision="13" />
+  <project path="vendor/xiaomi/miatoll" name="rayavanindra/android_vendor_xiaomi_miatoll" remote="all" revision="13" />
+  <project path="kernel/xiaomi/sm6250" name="rayavanindra/android_kernel_xiaomi_sm6250" remote="all" revision="main" />
+  <project path="vendor/xiaomi/sm6250-common" name="rayavanindra/android_vendor_xiaomi_sm6250-common" remote="all" revision="13" />
+
+ <!-- (Clang) -->
   
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="allgit" revision="master" />
+
+  <!-- Toolchain -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
 </manifest>
